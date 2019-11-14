@@ -12,7 +12,6 @@ class GasStation
     @unleaded_price = unleaded_price
   end
 end
-attr_reader :brand, :unleaded_price
 
 petrol_petes = GasStation.new("Petrol Pete's", 50)
 seashore_shell = GasStation.new("The Seashore Shell", 40)
